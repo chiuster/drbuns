@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10325c"/>
+      <stop offset="100%" stop-color="#0b2545"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+
+  <!-- Sun glow -->
+  <circle cx="980" cy="120" r="140" fill="#e3c565" opacity="0.15"/>
+
+  <!-- Ground -->
+  <rect y="470" width="1200" height="130" fill="#13335c"/>
+
+  <!-- Distant house left -->
+  <g opacity="0.5">
+    <rect x="60" y="360" width="180" height="120" fill="#16395f"/>
+    <polygon points="50,360 250,360 150,290" fill="#1c4a78"/>
+  </g>
+
+  <!-- Main house -->
+  <g>
+    <rect x="430" y="300" width="340" height="180" fill="#1c4a78"/>
+    <polygon points="410,300 800,300 600,170" fill="#26618f"/>
+    <!-- Door -->
+    <rect x="580" y="400" width="60" height="80" fill="#0b2545"/>
+    <!-- Windows -->
+    <rect x="470" y="340" width="60" height="50" fill="#e3c565" opacity="0.85"/>
+    <rect x="670" y="340" width="60" height="50" fill="#e3c565" opacity="0.85"/>
+    <!-- Chimney -->
+    <rect x="700" y="200" width="30" height="80" fill="#16395f"/>
+  </g>
+
+  <!-- Distant house right -->
+  <g opacity="0.5">
+    <rect x="950" y="380" width="160" height="100" fill="#16395f"/>
+    <polygon points="940,380 1120,380 1030,320" fill="#1c4a78"/>
+  </g>
+
+  <!-- Trees -->
+  <g fill="#163a2a" opacity="0.6">
+    <circle cx="330" cy="430" r="40"/>
+    <rect x="322" y="430" width="16" height="50"/>
+    <circle cx="900" cy="440" r="35"/>
+    <rect x="893" y="440" width="14" height="45"/>
+  </g>
+</svg>
