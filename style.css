@@ -1,11 +1,11 @@
 :root {
-  --navy: #0b2545;
-  --navy-dark: #081a33;
-  --gold: #c9a227;
-  --gold-light: #e3c565;
-  --gray: #f5f6f8;
-  --text: #1f2933;
-  --muted: #5b6573;
+  --navy: #8a4b32;
+  --navy-dark: #6b3a26;
+  --gold: #e8a23d;
+  --gold-light: #f4c873;
+  --gray: #fff8f0;
+  --text: #3a2c25;
+  --muted: #7a6a60;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -67,7 +67,7 @@ nav a:hover { color: var(--gold-light); }
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, rgba(11,37,69,0.75) 0%, rgba(8,26,51,0.85) 100%), url('assets/hero-bg.svg');
+  background: linear-gradient(135deg, rgba(138,75,50,0.75) 0%, rgba(107,58,38,0.85) 100%), url('assets/hero-bg.svg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -259,8 +259,8 @@ nav a:hover { color: var(--gold-light); }
   width: 100%;
   padding: 13px 14px;
   border-radius: 6px;
-  border: 1px solid #2c3e5c;
-  background: #122d52;
+  border: 1px solid #a8694a;
+  background: #7a4129;
   color: #fff;
   font-size: 15px;
   font-family: inherit;
@@ -268,7 +268,7 @@ nav a:hover { color: var(--gold-light); }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #8fa0bc;
+  color: #ddb79c;
 }
 
 .contact-form input:focus,
