@@ -1,11 +1,11 @@
 :root {
-  --navy: #8a4b32;
-  --navy-dark: #6b3a26;
-  --gold: #e8a23d;
-  --gold-light: #f4c873;
-  --gray: #fff8f0;
-  --text: #3a2c25;
-  --muted: #7a6a60;
+  --navy: #0b2545;
+  --navy-dark: #081a33;
+  --gold: #c9a227;
+  --gold-light: #e3c565;
+  --gray: #f5f6f8;
+  --text: #1f2933;
+  --muted: #5b6573;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -21,6 +21,32 @@ body {
   margin: 0 auto;
   padding: 0 24px;
 }
+
+/* Sell banner */
+.sell-banner {
+  background: var(--gold);
+  color: var(--navy-dark);
+  text-align: center;
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.sell-banner a {
+  color: var(--navy-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.sell-banner a:hover { opacity: 0.75; }
+
+/* Logo as link */
+a.logo { text-decoration: none; }
 
 /* Header */
 .header {
@@ -67,7 +93,7 @@ nav a:hover { color: var(--gold-light); }
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, rgba(138,75,50,0.75) 0%, rgba(107,58,38,0.85) 100%), url('assets/hero-bg.svg');
+  background: linear-gradient(135deg, rgba(11,37,69,0.75) 0%, rgba(8,26,51,0.85) 100%), url('assets/hero-bg.svg');
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -259,8 +285,8 @@ nav a:hover { color: var(--gold-light); }
   width: 100%;
   padding: 13px 14px;
   border-radius: 6px;
-  border: 1px solid #a8694a;
-  background: #7a4129;
+  border: 1px solid #2c3e5c;
+  background: #122d52;
   color: #fff;
   font-size: 15px;
   font-family: inherit;
@@ -268,7 +294,7 @@ nav a:hover { color: var(--gold-light); }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #ddb79c;
+  color: #8fa0bc;
 }
 
 .contact-form input:focus,
@@ -287,6 +313,90 @@ nav a:hover { color: var(--gold-light); }
   color: #9fb0c8;
   text-align: center;
   padding: 24px 0;
+  font-size: 14px;
+}
+
+/* Rentals hero — no house illustration, clean warm gradient */
+.rentals-hero {
+  background: linear-gradient(135deg, var(--navy) 0%, var(--navy-dark) 100%);
+}
+
+/* Listings */
+.listings-intro {
+  text-align: center;
+  color: var(--muted);
+  margin-top: -20px;
+  margin-bottom: 36px;
+}
+
+.listings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 28px;
+}
+
+.listing-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e8ddd5;
+  box-shadow: 0 2px 12px rgba(138,75,50,0.07);
+  background: #fff;
+}
+
+.listing-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.listing-photo-placeholder {
+  background: #f0e6dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.listing-info {
+  padding: 20px;
+}
+
+.listing-address {
+  font-size: 17px;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.listing-meta {
+  display: flex;
+  gap: 14px;
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+
+.listing-meta span::before {
+  content: "· ";
+}
+
+.listing-meta span:first-child::before { content: ""; }
+
+.listing-price {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.listing-desc {
+  font-size: 14px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+
+.btn-sm {
+  padding: 9px 20px;
   font-size: 14px;
 }
 
