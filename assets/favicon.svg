@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0b2545"/>
+  <!-- Bun bottom -->
+  <ellipse cx="32" cy="42" rx="20" ry="12" fill="#c9a227"/>
+  <!-- Bun top -->
+  <path d="M12 38 C12 22 52 22 52 38 C52 42 48 44 32 44 C16 44 12 42 12 38 Z" fill="#e3c565"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="23" cy="29" rx="1.8" ry="1.1" fill="#fff" transform="rotate(-20 23 29)"/>
+  <ellipse cx="32" cy="25" rx="1.8" ry="1.1" fill="#fff" transform="rotate(10 32 25)"/>
+  <ellipse cx="41" cy="30" rx="1.8" ry="1.1" fill="#fff" transform="rotate(-10 41 30)"/>
+  <!-- Stethoscope -->
+  <path d="M22 40 C20 50 28 54 32 52 C36 54 44 50 42 40" fill="none" stroke="#0b2545" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="22" cy="38" r="2.2" fill="#0b2545"/>
+  <circle cx="42" cy="38" r="2.2" fill="#0b2545"/>
+  <circle cx="32" cy="53" r="3.5" fill="#0b2545"/>
+  <circle cx="32" cy="53" r="1.4" fill="#e3c565"/>
+</svg>
